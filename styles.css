@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #ecf0f1; /* Light gray background color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+/* Style the dashboard container */
+.dashboard-container {
+    width: 100%;
+    min-height: 100vh; /* Make the container at least the full height of the viewport */
+    background-color: #ffffff; /* White background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the width and height of the element */
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #3498db; /* Blue color */
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Style the highlight span in the overview section */
+.highlight {
+    font-weight: bold;
+    color: #27ae60; /* Green color */
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e74c3c; /* Red color */
+    color: #fff;
+}
+
+/* Style the study schedule section */
+.study-schedule, .assignments {
+    margin-top: 20px;
+}
+
+.study-schedule h2, .assignments h2 {
+    color: #f39c12; /* Yellow color */
+}
+
+/* Style the assignment list */
+.assignment {
+    font-weight: bold;
+    color: #e74c3c; /* Red color */
+}
+
+/* Style the footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+    .dashboard-container {
+        padding: 10px;
+    }
+}
